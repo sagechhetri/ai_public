@@ -2,6 +2,7 @@ print("labelImg will be cloned at the folder you provide. You can then start lab
 print("\tA new window will pop open. Select dir to open all images ")
 print("\tMake sure to close the window when done else script will continue to run")
 
+import os
 folder=input("folder name:")
 LABELIMG_PATH = os.path.join(folder, 'labelimg')
 !pip install --upgrade pyqt5 lxml
